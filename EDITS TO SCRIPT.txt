@@ -1,0 +1,3 @@
+In Win10.psm1, in function UninstallMsftBloat, comment out the following lines (do NOT uninstall):
+#	Get-AppxPackage "Microsoft.WindowsCamera" | Remove-AppxPackage
+#	Get-AppxPackage "Microsoft.Windows.Photos" | Remove-AppxPackage
